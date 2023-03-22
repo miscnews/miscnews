@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 CN 1 → ora1, server: 152.70.239.218, port: 5678, type: vmess, uuid: 2482f596-6c7c-11ec-bab7-020017009818, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dVODy4PR/, headers: {Host: 152.70.239.218}}, udp: true}
+  - {name: 🇰🇷 CN 1 → ora1, server: 152.70.239.218, port: 56789, type: vmess, uuid: 2482f596-6c7c-11ec-bab7-020017009818, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dVODy4PR/, headers: {Host: 152.70.239.218}}, udp: true}
   - {name: 🌍 CN 2 → euserv, server: 2a02:180:6:1::2993, port: 5678, type: vmess, uuid: 45961148-79a1-4bee-bf05-250843738a51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zWknX3gb/}, udp: true}
   - {name: 🌍 CN 3 → euserv, server: 10.10.10.66, port: 5678, type: vmess, uuid: 45961148-79a1-4bee-bf05-250843738a51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zWknX3gb/}, udp: true}
 proxy-groups:
